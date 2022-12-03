@@ -1,4 +1,4 @@
-# INTRODUCTION 
+# Auth Wiki 
 This is the official repository for Team 54. Our aim is to create a website/platform where users can have access and download authenticated codes for their required needs.
 
 
@@ -27,8 +27,29 @@ The library will also aim at improving community interactions.
 
 
 ## Platforms to design for
+- Mobile app
 - Mobile website
-- Desktop
+- Desktop website
+
+## Feature Requests
+- **User: Unauthenticated**
+  1. Visit the platform to view basic information about it
+  2. View and Interact with the documentation
+  3. Register to contribute
+  4. Browse through library with limited information, download should not be available
+- **User: Authenticated**
+  1. Full access to the platform
+  2. Contribute, however, contribution should be limited to comments and reactions
+  3. Able to view example usage
+  4. Download code samples
+
+
+## Resources
+- [Product Documentation](https://docs.google.com/document/d/1Y0gYvRqSs4Zpbx9V7YcogDiAk7xvFMJiOepHedIBiFM/edit?usp=sharing)
+- [Data Schema](https://onedrive.live.com/?authkey=%21AK7eduDDzTyKsc8&cid=7CDA8918E856EC43&id=7CDA8918E856EC43%2111661&parId=root&o=OneUp)
+- [Design Sketch](https://www.figma.com/file/NZyR5gaCZa6c0ZkntWJS6H/Auth_Wiki?node-id=0%3A1&t=6dTdhaPAHe9CwSE4-0)
+- [Mood Boards](#)
+- [GitHub Repo with read.me content](https://github.com/zuri-training/Team-54_Auth_wiki)
 
 
 ## Team members
