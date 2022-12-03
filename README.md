@@ -27,7 +27,7 @@ The library will also aim at improving community interactions.
 
 
 ## Platforms to design for
-- Mobile app
+- Mobile website
 - Desktop
 
 
