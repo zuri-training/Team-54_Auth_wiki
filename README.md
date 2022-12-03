@@ -44,7 +44,7 @@ The library will also aim at improving community interactions.
   4. Download code samples
 
 
-## Resources
+## Assets
 - [Product Documentation](https://docs.google.com/document/d/1Y0gYvRqSs4Zpbx9V7YcogDiAk7xvFMJiOepHedIBiFM/edit?usp=sharing)
 - [Data Schema](https://onedrive.live.com/?authkey=%21AK7eduDDzTyKsc8&cid=7CDA8918E856EC43&id=7CDA8918E856EC43%2111661&parId=root&o=OneUp)
 - [Design Sketch](https://www.figma.com/file/NZyR5gaCZa6c0ZkntWJS6H/Auth_Wiki?node-id=0%3A1&t=6dTdhaPAHe9CwSE4-0)
