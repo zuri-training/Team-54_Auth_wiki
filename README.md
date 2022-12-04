@@ -44,12 +44,16 @@ The library will also aim at improving community interactions.
 
 
 ## Assets
-- [Product Documentation](https://docs.google.com/document/d/1Y0gYvRqSs4Zpbx9V7YcogDiAk7xvFMJiOepHedIBiFM/edit?usp=sharing)
-- [Data Schema](https://onedrive.live.com/?authkey=%21AK7eduDDzTyKsc8&cid=7CDA8918E856EC43&id=7CDA8918E856EC43%2111661&parId=root&o=OneUp)
-- [Design Sketch](https://www.figma.com/file/NZyR5gaCZa6c0ZkntWJS6H/Auth_Wiki?node-id=0%3A1&t=6dTdhaPAHe9CwSE4-0)
+- [Product Documentation](https://docs.google.com/document/d/1HW4rULqQynIUUln0c_xAQ3G7XNkoqJ2ljWbnsz0BHDY/edit?usp=drivesdk
+)
+- [Data Schema](https://1drv.ms/u/s!AkPsVugYidp82w9PbgTIZ3bZ7wfl
+)
+- [Design Sketch](https://www.figma.com/file/NZyR5gaCZa6c0ZkntWJS6H/Auth_Wiki?node-id=0%3A1&t=rJHpoG0vKoCqtOU8-1
+)
 - [Mood Boards](https://www.figma.com/file/eAiyQT7mobfSpskHes9M7n/Auth_Wiki-Moodboard?node-id=0%3A1&t=6fLEXG0ZpVdNZpW3-1
 )
-- [GitHub Repo with read.me content](https://github.com/zuri-training/Team-54_Auth_wiki)
+- [GitHub Repo with read.me content](https://github.com/zuri-training/Team-54_Auth_wiki/blob/main/README.md
+)
 
 
 ## Team members
