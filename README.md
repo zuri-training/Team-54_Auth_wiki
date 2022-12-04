@@ -1,4 +1,4 @@
-# Auth Wiki 
+# Auth_Wiki 
 This is the official repository for Team 54. Our aim is to create a website/platform where users can have access and download authenticated codes for their required needs.
 
 
