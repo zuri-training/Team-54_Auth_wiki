@@ -2,4 +2,26 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+.hand{
+    width: 236px;
+    height: 177px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.text{
+    width: 222px;
+    height: 25px;
+    font-family: 'Sora';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: #7F9445;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
