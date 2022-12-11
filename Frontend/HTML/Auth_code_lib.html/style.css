@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+  }
+  
+li {
+    float: left;
+  }
+  
+li a {
+    display: block;
+    color: blue;
+    text-align: center;
+    padding: 30px 30px;
+    text-decoration: none;
+  }
+  
+li a:hover {
+    background-color: #111;
+  }
+
+.flex-div {
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    left: 0px;
+    top: 100px;
+    line-height: 40px;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    background: #6A0871;
+    color: white;
+}
+
+input [text] {
+    width: 50%;
+    height: 60px;
+    text-align: right; 
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('icons8-search-more-50.png');
+    image-orientation: 0deg;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+  }
+
+.pop {
+    position: absolute;
+    width: 531px;
+    height: 52px;
+    left: 100px;
+    top: 35%;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 52px;
+    color: #833189;
+}
+.sfa {
+    position: absolute;
+    width: 531px;
+    height: 52px;
+    left: 5%;
+    top: 40%;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #833189;
+    text-align: center;
+}
+
+.bio {
+    position: absolute; 
+    width: 531px;
+    height: 52px;
+    left: 30%;
+    top: 40%;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #833189;
+    text-align: center;
+}
+
+.token {
+    position: absolute;
+    width: 531px;
+    height: 52px;
+    left: 60%;
+    top: 40%;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #833189;
+    text-align: center;
+}
+
+.fav {
+    position: absolute;
+    width: 531px;
+    height: 52px;
+    left: 100px;
+    top: 55%;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 52px;
+    color: #833189;
+}
+
+.sfa2 {
+    position: absolute;
+    width: 531px;
+    height: 52px;
+    left: 5%;
+    top: 60%;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #833189;
+    text-align: center;
+}
+
+.bio2 {
+    position: absolute; 
+    width: 531px;
+    height: 52px;
+    left: 30%;
+    top: 60%;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #833189;
+    text-align: center;
+}
+
+.token2 {
+    position: absolute;
+    width: 531px;
+    height: 52px;
+    left: 60%;
+    top: 60%;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #833189;
+    text-align: center;
+}
+
+.end {
+    position: absolute;
+    width: 982px;
+    height: 66px;
+    left: 229px;
+    top: 79%;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 28px;
+    text-align: center;
+    color: #833189;
+}
+
+.end1 {
+    position: absolute;
+    width: 982px;
+    height: 66px;
+    left: 6%;
+    top: 82%;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 28px;
+    text-align: left;
+    color: #833189;
+}
+
+.end2 {
+    position: absolute;
+    width: 982px;
+    height: 66px;
+    left: 30%;
+    top: 82%;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 28px;
+    text-align: left;
+    color: #833189;
+}
+
+.img1{
+    position: absolute;
+    left: 28%;
+    top: 83%;
+    border: 5px solid rgba(0, 0, 0, 0.5);
+}
+.img2{
+    position: absolute;
+    left: 1.5%;
+    width: 4%;
+    height: 6%;
+    top: 84%;
+    border: 5px solid rgba(0, 0, 0, 0.5);
+}
+
+.footer {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 90%;
+    bottom: 0%;
+    background: #2E2B2E;
+    border-radius: 0px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 0px;
+    background-color: #2E2B2E;
+    padding: 10px;  
+}
+   
