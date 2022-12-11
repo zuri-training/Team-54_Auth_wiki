@@ -1,5 +1,4 @@
 
-
 * {
     margin: 0;
     padding: 0;
@@ -54,7 +53,15 @@
     line-height: 52px;
     color: #6a0871;
   }
-
+.image{
+    position: absolute;
+    left: 24.23%;
+    right: 32.51%;
+    top: 18.7%;
+    bottom: 23.44%;
+     background: #000000;
+    opacity: 0.3;
+}
   .btn{
     background: #5b96e6;
     border-radius: 4px;
