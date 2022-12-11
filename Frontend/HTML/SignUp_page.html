@@ -4,112 +4,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>auth_wiki</title>
+    <title>SignUp Page</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+  <h1 class="hero">auth_wiki</h1>  
 </head>
 <body>
-  <h1>auth_wiki project</h1>  
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="">
-    <title>Company Registratin Form</title>
-</head>
-<body>
-    <main class="main">
-        <h1>Company Registration form</h1>
-        <form>
-            <div class="input-item">
-                  <label for="company" class="label-text">company name</label>
-                  </div>
-                  <div>
-                  <input type="email" class="input-box" placeholder="Azard Technologies" />
-                </div>
-                <div>
-                <label for="industry" class="label-text" placeholder="Technology">Industry</label>
-                </div>
-                <div type="technolgy" placeholder="technolgy" class="custom-select" style="width: 200px;">
-                <select> 
-                        <option value="0">Technology</option>
-                        <option value="1">PLC</option>
-                        <option value="2">Limited</option>
-                        <option value="3">Enterprises</option>
-                    </select>
-                </dvi>
-                <div>
-                    <label for="industry" class="label-text" placeholder="Technology">Industry</label>
-                    </div>
-                    <div type="country" placeholder="country" class="custom-select" style="width: 200px;">
-                    <select> 
-                            <option value="0">USA</option>
-                            <option value="1">canada</option>
-                            <option value="2">Algeria</option>
-                            <option value="3">Germany</option>
-                            <option value="3">Nigeri</option>
-                        </select>
-                    </dvi>
-                </div>
-                <div>
-                <label for="company" class="label-text">Zip code</label>
-                  </div>
-                  <div>
-                  <input type="zip-code" class="input-box" placeholder="2009145" />
-                </div>
+        <form class="">
+            <div class="container">
+              <h1>Company Registration Form</h1><br>
+              <label for="company name" class="cn"><b>Company name</b></label><br>
+              <label for="cn"><b></b></label>
+    <input type="text" placeholder="Azard Technologies" name="cm" required><br>
+    <label for="industry"><b>Industry</b></label> <br>
+    <select> 
+      <option value="0">Technology</option>
+      <option value="1">PLC</option>
+      <option value="2">Limited</option>
+      <option value="3">Enterprises</option>
+  </select> <br>
+  <label for="country"><b>Country</b></label><br>
+  <select> 
+    <option value="0">USA</option>
+    <option value="1">canada</option>
+    <option value="2">Algeria</option>
+    <option value="3">Germany</option>
+    <option value="3">Nigeri</option>
+</select> <br>
+<label for="zip code"><b>Zip Code</b></label> <br>
+<input type="number" placeholder="200914" name="zip code" required><br>
 
-                <div>
-                    <label for="company" class="label-text">password</label>
-                      </div>
+<label for="psw"><b>Password</b></label> <br>
+<input type="password" placeholder="********" name="password" required><br>
 
-                      <div>
-                      <input type="password" class="input-box" placeholder="***********" />
-                    </div>
+<div class="right">
+  <label for="eo"><b> Executive Officer</b></label> <br>
+  <input type="text" placeholder="Robert Azard" name="eo" required><br>
 
-                    <div>
-                        <label for="Executive" class="label-text">Executive officer</label>
-                          </div>
-                          <div>
-                          <input type="password" class="input-box" placeholder="Robert Azard"/>
-                        </div>
+  <label for="cma"><b>Company Mailing Address</b></label> <br>
+<input type="text" placeholder="24, Queens NYC" name="cma" required><br>
+<label for="city"><b>City</b></label> <br>
+<input type="text" placeholder="Ottawa" name="ottawa" required><br>
 
-                        <div>
-                            <label for="Address" class="label-text">Company Mailing Address</label>
-                              </div>
-                              <div>
-                              <input type="Address" class="input-box" placeholder="24, Queens NYC"/>
-                 </div>
-                 <div>
-                    <label for="industry" class="label-text" placeholder="Queens">City</label>
-                    </div>
-                    <div type="City" placeholder="Queens" class="custom-select" style="width: 200px;">
-                    <select> 
-                            <option value="0">ottawa</option>
-                            <option value="1">canberra</option>
-                            <option value="2">berlin</option>
-                            <option value="3">algiers</option>
-                            <option value="3">lagos</option>
-                        </select>
-             </dvi>
-             <div>
-             <label for="tel" class="label-text">Telephone number</label>
-                  </div>
-                  <div>
-                  <input type="tel" class="input-box" placeholder="1800546789" />
-                </div>
-                <div>
-                <label for="password" class="label-text">Confirm password</label>
-                  </div>
-                  <div>
-                  <input type="password" class="input-box" placeholder="***********" />
-                </div>
-                <P>By clicking 'Register',you agree to Auth Wiki's terms of service.</P>
-                <button type="submit" class="submit-btn">Register</button>
-                <p>Have an account? <a href="">Log in</a></p>
+<label for="Telephone"><b>Telephone</b></label> <br>
+<input type="tel" placeholder="1800546789" name="tel" required><br>
+
+<label for="cp"><b>Confirm Password</b></label> <br>
+<input type="text" placeholder="********" name="cp" required><br>
+</div>
+            </div>
+<div class="last">
+  <P class="p1">By clicking 'Register',you agree to Auth Wiki's terms of service.</P>
+  <button type="submit" class="btn">Register</button>
+  <p class="p2">Have an account? <a href="">Log in</a></p>
+</div>
+                
             </div>
         </form>
-    </main>
 </body>
 </html>

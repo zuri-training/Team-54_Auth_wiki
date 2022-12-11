@@ -1,0 +1,106 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero{
+    width: 103px;
+    height: 24px;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #CD54D6;
+}
+
+.container{
+    display: ;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+      }
+
+h1{
+    color: rgba(194, 0, 136, 0.938);
+    font-size: 75px;
+    
+
+}
+
+.cn{
+width: 161px;
+height: 24px;
+left: 103px;
+top: 271px;
+
+/* Body 2-Bold */
+
+font-family: 'Sora';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height, or 120% */
+
+
+/* Primary/500 */
+
+color: #833189;
+}
+
+.p1{
+    width: 778px;
+height: 24px;
+
+font-family: 'Sora';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 24px;
+/* identical to box height, or 100% */
+
+color: #000000;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.p2{
+    width: 183px;
+height: 24px;
+
+font-family: 'Sora';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #322323;
+}
+
+.btn{
+    width: 148px;
+height: 48px;
+
+font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+
+
+
+color: #FFFFFF;
+
+    
+}
+
