@@ -8,6 +8,7 @@
 .hero{
     width: 103px;
     height: 24px;
+    margin: auto;
     font-family: 'Sora';
     font-style: normal;
     font-weight: 400;
@@ -18,9 +19,22 @@
     text-align: center;
     color: #CD54D6;
 }
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
 
+  
 .container{
-    display: ;
+    display: grid;
     justify-content: center;
     align-items: center;
     min-height: 400px;
@@ -32,29 +46,26 @@ h1{
     
 
 }
+button {
+    background-color: #3061DF;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
 
-.cn{
-width: 161px;
-height: 24px;
-left: 103px;
-top: 271px;
+  button:hover {
+    opacity:1;
+  }
 
-/* Body 2-Bold */
+  .last{
+    padding: 30px;
+  }
 
-font-family: 'Sora';
-font-style: normal;
-font-weight: 700;
-font-size: 20px;
-line-height: 24px;
-/* identical to box height, or 120% */
-
-
-/* Primary/500 */
-
-color: #833189;
-}
-
-.p1{
+  .p1{
     width: 778px;
 height: 24px;
 
@@ -65,42 +76,24 @@ font-size: 24px;
 line-height: 24px;
 /* identical to box height, or 100% */
 
+
 color: #000000;
+
 
 /* Inside auto layout */
 
 flex: none;
 order: 0;
 flex-grow: 0;
-}
 
-.p2{
-    width: 183px;
-height: 24px;
+  }
 
-font-family: 'Sora';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 24px;
+  span{
+    color: #0962D9;
+  }
 
-color: #322323;
-}
-
-.btn{
-    width: 148px;
-height: 48px;
-
-font-family: 'Inria Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 48px;
-
-
-
-color: #FFFFFF;
-
-    
-}
-
+  @media screen and (max-width: 300px) {
+ .btn {
+      width: 100%;
+    }
+  }
