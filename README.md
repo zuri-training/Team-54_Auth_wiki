@@ -69,10 +69,7 @@ Udeme Jonah | Product Design
 Ifeoma Okere | Product Design
 Maryam Alakoso | Product Design
 Emmanuel Ayodele | Product Design
-Boluwatife Bude | Frontend
-LAWRENCE ELEJOKA | Frontend
 Nusaybah Ganiyu-Abideen | Frontend
 Kemebradikumo Osi | Frontend & Python
-Bakare Adeleke | Frontend & Python
 Saheed Akinrinade | Frontend & Python
 Jeremiah Rapp | Mobile (Flutter)
