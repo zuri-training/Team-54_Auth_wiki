@@ -1,184 +1,183 @@
 
 * {
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-    box-sizing: border-box;
-  }
-  body {
-    background-color: rgb(233, 225, 213);
-  }
-  .hero {
-    position: 100px 0px;
-    /* width: 100%;
-    height: 100vh; */
-    background-color: rgb(240, 240, 216);
-  }
-  nav {
-    display: flex;
-    padding-top: 45px;
-    padding-left: 8%;
-    padding-right: 8%;
-    align-items: center;
-    justify-content: space-between;
-  }
-  nav ul li {
-    display: inline-block;
-    list-style: none;
-    padding: 10px 25px;
-  }
-  nav ul li a {
-    background-color: transparent;
-    color: purple;
-    text-decoration: none;
-    border: 2px solid rgb(126, 96, 126);
-    font-weight: bold;
-    padding: 10px 25px;
-    border-radius: 30px;
-    transition: transform 0.4s;
-  }
-  nav ul li a:hover {
-    transform: scale(1.2);
-    background-color: rgb(94, 94, 146);
-    transition: 0.4s;
-  }
-  /* choose your plan */
-  .title h4 {
-    color: rgba(194, 0, 136, 0.938);
-    font-size: 75px;
-    width: 1130px;
-    margin: 40px 40px;
-    text-align: center;
-  }
-  .box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 400px;
-  }
-  .card {
-    height: 40vh;
-    width: 40vh;
-    padding: 20px 35px;
-    background: rgb(162, 162, 252);
-    border-radius: 20px;
-    position: relative;
-    overflow: hidden;
-    text-align: center;
-  }
-  .indi {
-    height: 40vh;
-    width: 40vh;
-    padding: 20px 35px;
-    background: white;
-    border-radius: 20px;
-    position: relative;
-    overflow: hidden;
-    text-align: center;
-  }
-  .card:hover {
-    transform: scale(1.2);
-    transition: 0.4s;
-    cursor: pointer;
-  }
-  .indi:hover {
-    transform: scale(1.2);
-    transition: 0.4s;
-    cursor: pointer;
-  }
-  /* start plan */
-  article {
-    width: 50%;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-  .first {
-    height: 70vh;
-    width: 70rem;
-    padding: 20px 35px;
-    /* margin: 10px; */
-    background: rgb(216, 164, 172);
-    border-radius: 20px;
-    position: relative;
-    overflow: hidden;
-    text-align: center;
-  }
-  .first h4 {
-    padding-bottom: 10px;
-    font-size: 20px;
-    font-size: bold;
-    color: purple;
-  }
-  .dollar h5 {
-    font-size: 15px;
-    padding-bottom: 10px;
-    font-weight: bold;
-    font-family: "lexend deca";
-  }
-  .first:hover {
-    transform: scale(1.2);
-    transition: 0.4s;
-    cursor: pointer;
-  }
-  .second {
-    height: 70vh;
-    width: 70rem;
-    padding: 20px 35px;
-    /* margin: 10px; */
-    background: rgb(255, 227, 231);
-    border-radius: 20px;
-    position: relative;
-    overflow: hidden;
-    text-align: center;
-  }
-  .second h4 {
-    padding-bottom: 10px;
-    font-size: 20px;
-    font-size: bold;
-    color: #3f3f9b;
-  }
-  .second:hover {
-    transform: scale(1.2);
-    transition: 0.4s;
-    cursor: pointer;
-  }
-  .third {
-    height: 70vh;
-    width: 70rem;
-    padding: 20px 35px;
-    /* margin: 10px; */
-    background: rgb(216, 164, 172);
-    border-radius: 20px;
-    position: relative;
-    overflow: hidden;
-    text-align: center;
-  }
-  .third h4 {
-    padding-bottom: 10px;
-    font-size: 20px;
-    font-size: bold;
-    color: purple;
-  }
-  .third:hover {
-    transform: scale(1.2);
-    transition: 0.4s;
-    cursor: pointer;
-  }
-  button {
-    background-color: blue;
-    color: white;
-    text-decoration: none;
-    border: 2px solid transparent;
-    padding: 10px;
-    border-radius: 30px;
-    transition: 0.4s;
-  }
-  button:hover {
-    background-color: transparent;
-    border: 2px solid blue;
-    cursor: pointer;
-  }
-  
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(233, 225, 213);
+}
+.hero {
+  position: 100px 0px;
+  /* width: 100%;
+  height: 100vh; */
+  background-color: rgb(240, 240, 216);
+}
+nav {
+  display: flex;
+  padding-top: 45px;
+  padding-left: 8%;
+  padding-right: 8%;
+  align-items: center;
+  justify-content: space-between;
+}
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  padding: 10px 25px;
+}
+nav ul li a {
+  background-color: transparent;
+  color: purple;
+  text-decoration: none;
+  border: 2px solid rgb(126, 96, 126);
+  font-weight: bold;
+  padding: 10px 25px;
+  border-radius: 30px;
+  transition: transform 0.4s;
+}
+nav ul li a:hover {
+  transform: scale(1.2);
+  background-color: rgb(94, 94, 146);
+  transition: 0.4s;
+}
+/* choose your plan */
+.title h4 {
+  color: rgba(194, 0, 136, 0.938);
+  font-size: 75px;
+  width: 1130px;
+  margin: 40px 40px;
+  text-align: center;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+.card {
+  height: 40vh;
+  width: 40vh;
+  padding: 20px 35px;
+  background: rgb(162, 162, 252);
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+.indi {
+  height: 40vh;
+  width: 40vh;
+  padding: 20px 35px;
+  background: white;
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+.card:hover {
+  transform: scale(1.2);
+  transition: 0.4s;
+  cursor: pointer;
+}
+.indi:hover {
+  transform: scale(1.2);
+  transition: 0.4s;
+  cursor: pointer;
+}
+/* start plan */
+article {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.first {
+  height: 70vh;
+  width: 70rem;
+  padding: 20px 35px;
+  /* margin: 10px; */
+  background: rgb(216, 164, 172);
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+.first h4 {
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-size: bold;
+  color: purple;
+}
+.dollar h5 {
+  font-size: 15px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  font-family: "lexend deca";
+}
+.first:hover {
+  transform: scale(1.2);
+  transition: 0.4s;
+  cursor: pointer;
+}
+.second {
+  height: 70vh;
+  width: 70rem;
+  padding: 20px 35px;
+  /* margin: 10px; */
+  background: rgb(255, 227, 231);
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+.second h4 {
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-size: bold;
+  color: #3f3f9b;
+}
+.second:hover {
+  transform: scale(1.2);
+  transition: 0.4s;
+  cursor: pointer;
+}
+.third {
+  height: 70vh;
+  width: 70rem;
+  padding: 20px 35px;
+  /* margin: 10px; */
+  background: rgb(216, 164, 172);
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+.third h4 {
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-size: bold;
+  color: purple;
+}
+.third:hover {
+  transform: scale(1.2);
+  transition: 0.4s;
+  cursor: pointer;
+}
+button {
+  background-color: blue;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  padding: 10px;
+  border-radius: 30px;
+  transition: 0.4s;
+}
+button:hover {
+  background-color: transparent;
+  border: 2px solid blue;
+  cursor: pointer;
+}
