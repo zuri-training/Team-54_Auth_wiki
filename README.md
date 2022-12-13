@@ -54,9 +54,6 @@ The library will also aim at improving community interactions.
 - [GitHub Repo with read.me content](https://github.com/zuri-training/Team-54_Auth_wiki/blob/main/README.md
 )
 
-https://zuri-training.github.io/Team-54_Auth_wiki/
-
-
 ## Team members
 Name | Stack
 ------------ | -------------
