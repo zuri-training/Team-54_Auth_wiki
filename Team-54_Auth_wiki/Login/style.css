@@ -1,0 +1,66 @@
+form {
+    border: 3px solid #f1f1f1;
+    color: #833189;
+  }
+  .display-text{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 1000;
+  }
+  
+  /* Full-width inputs */
+  input[type=text], input[type=password], input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: #3061DF;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+     width: 100%;
+  }
+  
+  /* Add a hover effect for buttons */
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  
+  /* Avatar image */
+  img.avatar {
+    width: 40%;
+    border-radius: 50%;
+  }
+  
+  /* Add padding to containers */
+  .container {
+    padding: 50px;
+    width: 10%;
+
+  }
+  
+  h1{
+    padding: 50px;
+    color: #CD54D6;
+  }
+
+  span{
+    color: #0962D9;
+  }
+
+
+
+
+
+
+
+
+

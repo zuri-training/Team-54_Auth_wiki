@@ -1,0 +1,8 @@
+*{
+    box-sizing: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    text-align: center;
+}

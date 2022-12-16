@@ -1,0 +1,1 @@
+This repository contains all HTML, CSS and JavaScript files.

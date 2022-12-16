@@ -1,0 +1,99 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero{
+    width: 103px;
+    height: 24px;
+    margin: auto;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #CD54D6;
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+
+  
+.container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+      }
+
+h1{
+    color: rgba(194, 0, 136, 0.938);
+    font-size: 75px;
+    
+
+}
+button {
+    background-color: #3061DF;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+
+  button:hover {
+    opacity:1;
+  }
+
+  .last{
+    padding: 30px;
+  }
+
+  .p1{
+    width: 778px;
+height: 24px;
+
+font-family: 'Sora';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 24px;
+/* identical to box height, or 100% */
+
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+
+  }
+
+  span{
+    color: #0962D9;
+  }
+
+  @media screen and (max-width: 300px) {
+ .btn {
+      width: 100%;
+    }
+  }

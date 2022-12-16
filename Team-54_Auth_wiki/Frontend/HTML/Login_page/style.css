@@ -1,0 +1,17 @@
+*{
+    box-sizing: 0;
+    padding: 0;
+    margin: 0;
+}
+h1{
+    color: purple;
+}
+p{
+    color: pink;
+}
+.p1{
+    color: black;
+}
+.input-item{
+    color: rgb(241, 40, 241);
+}
