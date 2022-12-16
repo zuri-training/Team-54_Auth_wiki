@@ -44,6 +44,8 @@ The library will also aim at improving community interactions.
 
 
 ## Assets
+- [Hosted Page](https://zuri-training.github.io/Team-54_Auth_wiki/)
+
 - [Product Documentation](https://docs.google.com/document/d/1HW4rULqQynIUUln0c_xAQ3G7XNkoqJ2ljWbnsz0BHDY/edit?usp=drivesdk
 )
 - [Data Schema](https://onedrive.live.com/?authkey=%21AE9uBMhndtnvB%2DU&cid=7CDA8918E856EC43&id=7CDA8918E856EC43%2111663&parId=root&o=OneUp)
